@@ -151,6 +151,14 @@ li {
   opacity: 95%;
 }
 
+.developer-image {
+  width: 300px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border-radius: 100px;
+  opacity: 70%;
+}
+
 a:hover {
   color: skyblue;
 }
@@ -231,12 +239,15 @@ a:hover {
     align-items: center;
   }
   .framework {
-    margin-top: 20px;
+    margin-top: 60px;
     width: 60%;
     height: 30%;
   }
   .secondary-title {
     text-align: center;
     font-size: xx-large;
+  }
+  .developer-image {
+    display: none;
   }
 }
