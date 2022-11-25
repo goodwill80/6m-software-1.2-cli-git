@@ -280,4 +280,7 @@ a:hover {
   .developer-image {
     display: none;
   }
+  .navbar {
+    width: 200px;
+  }
 }
