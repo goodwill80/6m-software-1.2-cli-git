@@ -8,7 +8,7 @@
 
 body {
   width: auto;
-  height: auto;
+  height: ;
   background-color: antiquewhite;
 }
 
@@ -169,6 +169,7 @@ a:hover {
   justify-content: space-around;
   width: 100%;
   margin-top: 30px;
+  padding-bottom: 10px;
 }
 
 .framework {
@@ -192,6 +193,34 @@ a:hover {
   top: 3%;
   display: none;
   cursor: pointer;
+}
+
+.fa-brands {
+  color: white;
+}
+
+.social-media-icons {
+  margin-top: 50px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  width: auto;
+}
+
+.icons {
+  padding-top: 10px;
+  cursor: pointer;
+}
+
+.sm-title {
+  margin-left: 20px;
+}
+
+.bottom-div {
+  height: auto;
+  padding-bottom: 20px;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -228,7 +257,7 @@ a:hover {
   .tagline {
     display: block;
     margin-bottom: 300px;
-    color: dodgerblue;
+    color: darkblue;
   }
   .skills {
     margin-top: 20px;
@@ -237,11 +266,12 @@ a:hover {
     flex-direction: column;
     align-items: flex-start;
     align-items: center;
+    padding-bottom: 10px;
   }
   .framework {
-    margin-top: 60px;
+    margin-top: 35px;
     width: 60%;
-    height: 30%;
+    height: auto;
   }
   .secondary-title {
     text-align: center;
